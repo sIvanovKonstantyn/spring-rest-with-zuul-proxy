@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Spring Zuul</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"/>
+</head>
+<body ng-app="myApp" ng-controller="mainCtrl">
+
+<div>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" th:href="@{/}">Spring Zuul routing example</a>
+            </div>
+
+        </div><!-- /.container-fluid -->
+    </nav>
+</div>
+<div class="container">
+    <div class="col-sm-12">
+        <a class="btn btn-default" href="/api/1">Route to API</a>
+        <a class="btn btn-default" href="/api2/2">Route to API v2</a>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+server:
+  servlet:
+    context-path: /spring-zuul-api-resource
+  port: 8081

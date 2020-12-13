@@ -1,0 +1,5 @@
+rootProject.name = 'spring-rest-with-zuul-proxy'
+include 'ui'
+include 'spring-zuul-api-resource'
+include 'spring-zuul-api2-resource'
+

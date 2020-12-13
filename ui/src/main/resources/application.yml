@@ -1,0 +1,8 @@
+zuul:
+  routes:
+    api:
+      path: /api/**
+      url: http://localhost:8081/spring-zuul-api-resource/api
+    api2:
+      path: /api2/**
+      url: http://localhost:8082/spring-zuul-api2-resource/api
